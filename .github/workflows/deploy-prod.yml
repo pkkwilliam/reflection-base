@@ -46,7 +46,7 @@ jobs:
           node-version: "16.x"
 
       - name: Install Dependency
-      - run: |
+        run: |
           cd coreui-starter
           npm install --legacy-peer-deps
 
