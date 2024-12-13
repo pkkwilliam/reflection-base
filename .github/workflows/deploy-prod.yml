@@ -58,7 +58,7 @@ jobs:
       - name: Prepare Build Artifact
         run: |
           cd coreui-starter
-          mv out ../build
+          mv build ../build
 
       - name: Upload Artifact
         uses: actions/upload-pages-artifact@v1
