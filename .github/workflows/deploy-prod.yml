@@ -53,7 +53,7 @@ jobs:
       - name: Build Project
         run: |
           cd coreui-starter
-          npm run build-prod
+          npm run build
 
       - name: Prepare Build Artifact
         run: |
