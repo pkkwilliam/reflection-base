@@ -2,6 +2,9 @@
 name: Deploy GitHub Pages
 
 on:
+  push:
+    branches: ["main"]
+    
   repository_dispatch:
     types: [reflection-dev-trigger]
 
