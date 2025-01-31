@@ -61,9 +61,13 @@ jobs:
         run: |
           cd coreui-starter
           mv build ../build
+          
+      - name: Verify Artifact Path
+        run: |
+          ls -R build
 
       - name: Upload Artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v1
         with:
           path: build
           if-no-files-found: error
