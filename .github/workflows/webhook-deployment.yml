@@ -32,7 +32,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Bedrock
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           repository: pkkwilliam/coreui-starter
           ref: ${{ env.BEDROCK_BRANCH }}
